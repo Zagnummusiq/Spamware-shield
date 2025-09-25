@@ -209,10 +209,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-
 📁 pluginManagement {
     repositories {
         google()
@@ -231,7 +227,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Spam Shield"
 include ':app'
-📁 .name: Android Build
+
+github/workflows/android.yml
+name: Android Build
 
 on: [push, pull_request]
 
