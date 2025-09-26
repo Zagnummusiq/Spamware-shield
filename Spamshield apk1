@@ -236,6 +236,9 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.name = "Spam Shield"  # ✅ Fixed typo: "Span" → "Spam"
+include ':app'
+
 rootProject.name = "Spam Shield"
 include ':app'
 ```
